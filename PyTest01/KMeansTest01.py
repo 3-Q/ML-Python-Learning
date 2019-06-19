@@ -11,7 +11,7 @@ from sklearn.cluster import KMeans
 if __name__ == '__main__':
 
     def loadData(filePath):
-        fr = open(filePath,'r+',encoding='utf-8-sig')   #指定编码方式为“utf-8-sig”
+        fr = open(filePath, 'r+', encoding='utf-8-sig')   # 指定编码方式为“utf-8-sig”
         lines = fr.readlines()
         retData = []
         retCityName = []
