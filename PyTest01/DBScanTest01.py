@@ -22,7 +22,7 @@ for line in f:
         onlinetimes.append((starttime, onlinetime))
     else:
         onlinetimes[mac2id[mac]] = [(starttime, onlinetime)]
-real_X = np.array(onlinetimes).reshape((-1, 2))
+real_X = np.array(onlinetimes).reshape((-1, 2))     # reshape 为numpy库中改变ndarray的形状
 
 X = real_X[:, 0:1]
 
